@@ -37,6 +37,8 @@ export default (props) => {
         <Link to="int" className="nine">  <Img fluid={props.data.room.childImageSharp.fluid} /> </Link><p className="undertext">Renovated casual living room</p>
         <Link to="fan" className="ten">  <Img fluid={props.data.diamondpearl.childImageSharp.fluid} /> </Link>
         <p className="undertext-b">Diamondpearl installation</p>
+        <Link to="treelamp" className="eleven">  <Img fluid={props.data.treelamp.childImageSharp.fluid} /> </Link>
+        <p className="undertext">Outdoor treelamp</p>
 
       </div >
 
@@ -107,6 +109,13 @@ export const query = graphql`
         }
       },
       diamondpearl: file(relativePath: {eq: "diamondpearl-cover.jpg"}){
+        childImageSharp {
+          fluid(maxWidth:1400, quality:100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      treelamp: file(relativePath: {eq: "treelamp-cover.jpg"}){
         childImageSharp {
           fluid(maxWidth:1400, quality:100) {
             ...GatsbyImageSharpFluid
