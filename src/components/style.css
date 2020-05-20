@@ -15,14 +15,7 @@ body {
     background-color: #F3F4F5;
 
         
-        animation-name: example;
-        animation-duration: 5s;
-}
-   
-      @keyframes example {
-        0%   {background-color: black}
-        100% {background-color: #F3F4F5;}
-      
+
     
    
     
@@ -34,11 +27,14 @@ body {
     font-family: 'Lato', sans-serif;
 
 
+
     top:0;
     display: flex;
     justify-content: space-between;
     position: sticky;
     z-index: 1;
+    
+    
    
 
 
@@ -158,15 +154,12 @@ body {
     grid-column: 1/4;
    
 }
-.undertext{
-
-   font-weight: 400;
-   padding-bottom:28px;
-   color:#5D5D5D;
-
+.eleven {
  
+    grid-column: 1/4;
    
 }
+
 .undertext-b {
 
     font-weight: 400;

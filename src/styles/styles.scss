@@ -9,7 +9,7 @@
     background-color: rgba(242, 243, 244, 0.98);
 
     @include breakpoint('medium') {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom:32px;
     padding-top: 32px;
     background-color: rgba(242, 243, 244, 0.98);
@@ -50,20 +50,20 @@ body {
     font-size: 12px;
     width: 160px;
     line-height: 20px;
- 
+
 
     @include breakpoint('medium') {
-        font-size: 12px;
+        font-size: 16px;
      
-        width: 180px;
-        line-height: 20px;
+        width: 220px;
+        line-height: 24px;
        
     }
     @include breakpoint('large') {
-        font-size: 8px;
+        font-size: 20px;
      
         width: 240px;
-        line-height: 26px;
+        line-height: 24px;
         margin-bottom: 20px;
 
     }
@@ -74,19 +74,19 @@ body {
 
 .indextext {
 
-    font-size: 20px;
-    line-height: 32px;
-    width: 250px;
+    font-size: 24px;
+    line-height: 36px;
+    width: 300px;
     height: 568px;
    
 
     @include breakpoint('medium') {
 
-        font-size: 40px;
-        width: 490px;
+        font-size: 44px;
+        width: 550px;
        
        
-        line-height: 60px;
+        line-height: 64px;
     }
 
     @include breakpoint('large') {
@@ -223,21 +223,78 @@ body {
 
 .undertext{
     font-family: 'Lato', sans-serif;
+    
+    font-weight: 400;
+    padding-bottom:16px;
+    color:#5D5D5D;
+        grid-column: 1/4;
+        padding-top:12px;
+        @include breakpoint('medium') {
+
+            font-size: 20px;
+            padding-top:12px;
+            padding-bottom:36px;
+            
+        }
     @include breakpoint('large') {
-   
+        padding-top:4px;
         font-size: 20px;
         padding-bottom:40px;
-      
+        grid-column: 1/1;
         }
+
     }
-    .undertext-b{
+
+.undertext2{
+        font-family: 'Lato', sans-serif;
+    
+        font-weight: 400;
+        padding-bottom:16px;
+        color:#5D5D5D;
+            grid-column: 1/4;
+            padding-top:12px;
+            @include breakpoint('medium') {
+
+                font-size: 20px;
+                padding-top:12px;
+                padding-bottom:36px;
+                
+            }
         @include breakpoint('large') {
-            grid-column: 1/2;
+            padding-top:4px;
             font-size: 20px;
             padding-bottom:40px;
-          
+            grid-column: 2/2;
             }
+    
         }
+
+        .undertext3{
+            font-family: 'Lato', sans-serif;
+            
+            font-weight: 400;
+   padding-bottom:16px;
+   color:#5D5D5D;
+            grid-column: 1/4;
+            padding-top:12px;
+            @include breakpoint('medium') {
+
+                font-size: 20px;
+                padding-top:12px;
+                padding-bottom:36px;
+                
+            }
+            @include breakpoint('large') {
+                padding-top:4px;
+                font-size: 20px;
+                padding-bottom:40px;
+                grid-column: 3/3;
+                
+              
+                }
+        
+            }
+
 
 p{
     font-family: 'Lato', sans-serif;
@@ -263,7 +320,7 @@ p{
 }
 
 .project1-a {
-
+    padding-bottom: 40px;
     @include breakpoint('large') {
   
         grid-column: 1/7;
@@ -501,7 +558,7 @@ p{
 
 .soundvdo {
 
-    padding-bottom: 40px;
+    padding-bottom:20px;
     grid-column: 1/4;
     @include breakpoint('medium') {
 
@@ -517,7 +574,7 @@ p{
 
 .soundvdo2 {
 
-    padding-bottom: 40px;
+    padding-bottom: 24px;
     grid-column: 1/4;
     @include breakpoint('medium') { 
         
@@ -531,21 +588,7 @@ p{
         }
 }
 
-.soundvdo3 {
 
-    padding-bottom: 40px;
-    grid-column: 1/4;
-    @include breakpoint('medium') {
-
-      
-    }
-
-
-    @include breakpoint('large') {
-        grid-column: 1/2;
-      
-        }
-}
 
 .vdogrid {
 height:315px;
@@ -561,13 +604,14 @@ height:315px;
 }
 
 .undertextvdo {
-         margin-top:-20px;
+         margin-top:-40px;
         font-size: 28px;
+        line-height:36px ;
         margin-bottom: 4px;
     @include breakpoint('medium') {
         font-size: 32px;
-        margin-top:-20px;
-        margin-bottom: -4px;
+        
+        
      
       }
       @include breakpoint('large') {
@@ -580,19 +624,20 @@ height:315px;
 }
 .undertextvdo2 {
     font-size:16px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
    
 
 
     @include breakpoint('medium') {
         font-size: 20px;
-        margin-bottom: 36px;
+        margin-top:8px;
+        margin-bottom: 48px;
        
 
       }
       @include breakpoint('large') {
-        margin-top:24px;
-        margin-bottom: 40px;
+        margin-top:8px;
+        margin-bottom: 52px;
         font-size: 20px;
         grid-column: 2/12;
         
