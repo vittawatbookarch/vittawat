@@ -30,14 +30,14 @@ export default (props) => {
         <Link to="wave" className="two">  <Img fluid={props.data.b.childImageSharp.fluid} /></Link> <p className="undertext2">Wave installation</p>
         <Link to="regen" className="three">  <Img fluid={props.data.chair.childImageSharp.fluid} /> </Link> <p className="undertext3">Regen chair</p>
         <Link to="hana" className="four">  <Img fluid={props.data.hana.childImageSharp.fluid} /></Link>  <p className="undertext">Hana </p>
-        <Link to="fabricate" className="five">  <Img fluid={props.data.fabricate.childImageSharp.fluid} /></Link> <p className="undertext2">Fabricate installation </p>
-        <Link to="kid" className="six">  <Img fluid={props.data.treehouse.childImageSharp.fluid} /> </Link> <p className="undertext3"> Kids treehouse </p>
+        <Link to="treelamp" className="five">  <Img fluid={props.data.treelamp.childImageSharp.fluid} /></Link> <p className="undertext2">Fabricate installation </p>
+        <Link to="fabricate" className="six">  <Img fluid={props.data.fabricate.childImageSharp.fluid} /> </Link> <p className="undertext3"> Kids treehouse </p>
         <Link to="dp" className="seven">  <Img fluid={props.data.dp.childImageSharp.fluid} /> </Link><p className="undertext">Curve gem</p>
         <Link to="boodwood" className="eight">  <Img fluid={props.data.boodwood.childImageSharp.fluid} /> </Link> <p className="undertext2">Boodwood</p>
         <Link to="int" className="nine">  <Img fluid={props.data.room.childImageSharp.fluid} /> </Link><p className="undertext3">Renovated casual living room</p>
-        <Link to="fan" className="ten">  <Img fluid={props.data.diamondpearl.childImageSharp.fluid} /> </Link>
+        <Link to="diamondpearl" className="ten">  <Img fluid={props.data.diamondpearl.childImageSharp.fluid} /> </Link>
         <p className="undertext">Diamondpearl installation</p>
-        <Link to="treelamp" className="eleven">  <Img fluid={props.data.treelamp.childImageSharp.fluid} /> </Link>
+        <Link to="kids" className="eleven">  <Img fluid={props.data.treehouse.childImageSharp.fluid} /> </Link>
         <p className="undertext2">Outdoor treelamp</p>
 
       </div >

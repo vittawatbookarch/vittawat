@@ -25,8 +25,8 @@ export default (props) => {
         <p className="text1"> <p className="project1H"> Regen chair</p> {Data.chair}</p>
         <div className="chair2-d"> <Img fluid={props.data.chair2.childImageSharp.fluid} /></div>
 
-        <div className="chair2-b"> <Img fluid={props.data.chair3.childImageSharp.fluid} /></div>
-        <div className="chair2-c"> <Img fluid={props.data.chair4.childImageSharp.fluid} /></div>
+        <div className="halfl"> <Img fluid={props.data.chair3.childImageSharp.fluid} /></div>
+        <div className="halfr"> <Img fluid={props.data.chair4.childImageSharp.fluid} /></div>
 
 
 
