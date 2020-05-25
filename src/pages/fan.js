@@ -31,11 +31,10 @@ export default (props) => {
 
         <div className="project1-b"> <Img fluid={props.data.fanpb2.childImageSharp.fluid} /></div>
         <div className="project1-c"> <Img fluid={props.data.fanpb3.childImageSharp.fluid} /></div>
-        <div className="fanstatement"> <p className="textfan">  <p className="project2Hfan"> Statement </p>{Data.fan3}</p> </div>
         <p className="text2">  <p className="project2H"> Research </p>{Data.fan4}</p>
         <div className="project1-b"> <Img fluid={props.data.fan5.childImageSharp.fluid} /></div>
         <div className="project1-c"> <Img fluid={props.data.fan6.childImageSharp.fluid} /></div>
-        <div className="fanstatement"> <p className="textfan">  <p className="project2Hfan"> Best state of comfort </p>{Data.fan5}</p> </div>
+         <p className="text5">  <p className="project2H"> Best state of comfort </p>{Data.fan5}</p> 
         <p className="text2">  <p className="project2H"> Ideation & Conceptualize </p>{Data.fan7}</p>
         <div className="project1-b"> <Img fluid={props.data.fan9.childImageSharp.fluid} /></div>
         <div className="project1-c"> <Img fluid={props.data.fan10.childImageSharp.fluid} /></div>

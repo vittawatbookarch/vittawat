@@ -23,16 +23,34 @@ export default (props) => {
 
         <div className="project1-a"> <Img fluid={props.data.a.childImageSharp.fluid} /></div>
         <p className="text1"> <p className="project1H"> Outdoor treelamp</p> {Data.treelamp1}</p>
+        <p className="text4">  <p className="project2H"> Problems </p>{Data.treelamp3}</p>
+        <div className="project1-c"> <Img fluid={props.data.tx2.childImageSharp.fluid} /></div>
+        <p className="text3">  <p className="project2H"> Lost to stakeholders </p>{Data.treelamp6}</p>
+        <div className="project1-g"> <Img fluid={props.data.tx4.childImageSharp.fluid} /></div>
+      
+        <p className="text3">  <p className="project2H"> Ideate & Conceptualize </p>{Data.treelamp7}</p>
+        <div className="project1-b"> <Img fluid={props.data.tx5.childImageSharp.fluid} /></div>
+        <div className="project1-c"> <Img fluid={props.data.tx6.childImageSharp.fluid} /></div>
+        <div className="project1-b"> <Img fluid={props.data.tx7.childImageSharp.fluid} /></div>
+        <div className="project1-c"> <Img fluid={props.data.tx8.childImageSharp.fluid} /></div>
+
+        <p className="text3">  <p className="project2H"> Design criteria </p></p>
+        <div className="project1-g"> <Img fluid={props.data.tx9.childImageSharp.fluid} /></div>
 
         <div className="chair2-d"> <Img fluid={props.data.t5.childImageSharp.fluid} /></div>
         <div className="chair2-d"> <Img fluid={props.data.t10.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t2.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t3.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t4.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t6.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t7.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t8.childImageSharp.fluid} /></div>
-        <div className="chair2-d"> <Img fluid={props.data.t9.childImageSharp.fluid} /></div>
+        <p className="text2">  <p className="project2H"> 2Axis rotatable </p>{Data.treelamp5}</p>
+
+        <div className="project1-g"> <Img fluid={props.data.t2.childImageSharp.fluid} /></div>
+        <p className="text2">  <p className="project2H"> Changable mask </p>{Data.treelamp4}</p>
+        <div className="project1-g"> <Img fluid={props.data.t4.childImageSharp.fluid} /></div>
+        <div className="halfl"> <Img fluid={props.data.t6.childImageSharp.fluid} /></div>
+        <div className="halfr"> <Img fluid={props.data.t7.childImageSharp.fluid} /></div>
+        <div className="halfl"> <Img fluid={props.data.t8.childImageSharp.fluid} /></div>
+        <div className="halfr"> <Img fluid={props.data.t9.childImageSharp.fluid} /></div>
+
+        <p className="text2">  <p className="project2H"> Lighting effects </p>{Data.treelamp8}</p>
+        <div className="project1-g"> <Img fluid={props.data.tx10.childImageSharp.fluid} /></div>
         <div className="chair2-d"> <Img fluid={props.data.t11.childImageSharp.fluid} /></div>
 
 
@@ -129,6 +147,62 @@ export const query = graphql`
       }
     },
     t11: file(relativePath: {eq: "treelamp11.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx2: file(relativePath: {eq: "treelampx2.png"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx4: file(relativePath: {eq: "treelampx4.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx5: file(relativePath: {eq: "treelampx5.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx6: file(relativePath: {eq: "treelampx6.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx7: file(relativePath: {eq: "treelampx7.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx8: file(relativePath: {eq: "treelampx8.jpg"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx9: file(relativePath: {eq: "treelampx9.png"}){
+      childImageSharp {
+        fluid(maxWidth:600, quality:100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    tx10: file(relativePath: {eq: "treelampx10.png"}){
       childImageSharp {
         fluid(maxWidth:600, quality:100) {
           ...GatsbyImageSharpFluid

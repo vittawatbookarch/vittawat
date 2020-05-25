@@ -385,6 +385,15 @@ p{
         }
 
 }
+.project1-h {
+    padding-bottom: 40px;
+    @include breakpoint('large') {
+  
+        grid-column: 1/7;
+        padding-bottom: 40px;
+        }
+
+}
 
 .project1-vdo {
     padding-bottom: 40px;
@@ -510,13 +519,11 @@ p{
    
     }
 }
-.textfan {
+.text3 {
     font-family: 'Lato', sans-serif;
-    color:  #F3F4F5;
+
     font-size: 12px;
     line-height: 20px;
-    
-    text-align: center;
 
 @include breakpoint('medium') {
 
@@ -529,13 +536,67 @@ p{
 
 @include breakpoint('large') {
     
-    grid-column: 1/3;
+    grid-column: 1/4;
     font-size: 20px;
     line-height: 32px;
-  
+    margin-bottom:40px;
+    padding-top: 50%;
+    
    
     }
 }
+.text4 {
+    font-family: 'Lato', sans-serif;
+
+    font-size: 12px;
+    line-height: 20px;
+
+@include breakpoint('medium') {
+
+    font-size: 16px;
+
+   
+    line-height: 26px;
+    grid-column: 1/6;
+}
+
+@include breakpoint('large') {
+    
+    grid-column: 5/9;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom:40px;
+    
+   
+    }
+}
+.text5 {
+    font-family: 'Lato', sans-serif;
+
+    font-size: 12px;
+    line-height: 20px;
+
+@include breakpoint('medium') {
+
+    font-size: 16px;
+
+   
+    line-height: 26px;
+    grid-column: 1/6;
+}
+
+@include breakpoint('large') {
+    
+    grid-column: 5/9;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom:100px;
+    text-align: center;
+
+   
+    }
+}
+
 
 
 
@@ -545,6 +606,7 @@ p{
 
     font-size:20px;
     line-height: 32px;
+    padding-bottom: 20px;
     @include breakpoint('medium') {
 
         font-size: 40px;
@@ -567,6 +629,7 @@ p{
 
     font-size:20px;
     line-height: 52px;
+    padding-bottom: 20px;
     @include breakpoint('medium') {
 
         font-size: 40px;
