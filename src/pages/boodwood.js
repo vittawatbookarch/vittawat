@@ -28,8 +28,8 @@ export default (props) => {
         <div className="boodwood3"> <Img fluid={props.data.boodwood2.childImageSharp.fluid} /></div>
         <div className="boodwood4"> <Img fluid={props.data.boodwood5.childImageSharp.fluid} /></div>
         <div className="boodwood4"> <Img fluid={props.data.boodwood6.childImageSharp.fluid} /></div>
-        <div className="chair2-b"> <Img fluid={props.data.boodwood14.childImageSharp.fluid} /></div>
-        <div className="chair2-c"> <Img fluid={props.data.boodwood9.childImageSharp.fluid} /></div>
+        <div className="halfl"> <Img fluid={props.data.boodwood14.childImageSharp.fluid} /></div>
+        <div className="halfr"> <Img fluid={props.data.boodwood9.childImageSharp.fluid} /></div>
 
         <div className="boodwood4"> <Img fluid={props.data.boodwood13.childImageSharp.fluid} /></div>
         <div className="boodwood4"> <Img fluid={props.data.boodwood4.childImageSharp.fluid} /></div>
